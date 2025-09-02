@@ -1,4 +1,4 @@
-/* ===== Global Styles ===== */
+/* Global Styles*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,7 +12,7 @@ body {
   color: #333;
 }
 
-/* ===== Accessibility ===== */
+/* Accessibility */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -25,7 +25,7 @@ body {
   border: 0;
 }
 
-/* ===== Calendar Layout ===== */
+/* Calendar Layout */
 .calendar-wrapper {
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@ body {
   outline-offset: -2px;
 }
 
-/* ===== Header ===== */
+/* Header */
 .header {
   position: sticky;
   top: 0;
@@ -58,7 +58,7 @@ body {
   font-size: 18px;
 }
 
-/* ===== Weekday Header ===== */
+/* Weekday Header */
 .weekday-header-sticky {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -93,7 +93,7 @@ body {
   padding: 6px 0;
 }
 
-/* ===== Month Grid ===== */
+/* Month Grid */
 .month-section {
   margin-bottom: 1rem;
 }
@@ -104,7 +104,7 @@ body {
   border-bottom: 1px solid #eee;
 }
 
-/* ===== Day Cells ===== */
+/* Day Cells */
 .day-cell {
   border: 1px solid #eee;
   min-height: 110px;
@@ -155,7 +155,7 @@ body {
   margin-bottom: 2px;
 }
 
-/* ===== Entry Thumbnails ===== */
+/* Entry Thumbnails */
 .entry-thumb {
   width: 90%;
   max-height: 60px;
@@ -165,7 +165,7 @@ body {
   border-radius: 4px;
 }
 
-/* ===== Star Rating ===== */
+/* Star Rating */
 .star-row {
   display: flex;
   justify-content: center;
@@ -186,7 +186,7 @@ body {
   margin-bottom: 2px;
 }
 
-/* ===== Category Elements ===== */
+/* Category Elements */
 .mini-category {
   display: inline-flex;
   justify-content: center;
@@ -210,7 +210,7 @@ body {
   color: lightblue;
 }
 
-/* ===== Modal Overlay ===== */
+/* Modal Overlay */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -221,7 +221,7 @@ body {
   z-index: 50;
 }
 
-/* ===== Carousel Components ===== */
+/* Carousel Components */
 .carousel-wrapper {
   position: relative;
   height: auto;
@@ -263,7 +263,7 @@ body {
   opacity: 0.8;
 }
 
-/* ===== Card Components ===== */
+/* Card Components */
 .card-img {
   width: 100%;
   height: auto;
@@ -330,7 +330,7 @@ body {
   background: #005bcc;
 }
 
-/* ===== Navigation Controls ===== */
+/* Navigation Controls */
 .nav-arrow {
   position: absolute;
   top: 50%;
@@ -359,7 +359,7 @@ body {
 .nav-arrow.left { left: -5px; }
 .nav-arrow.right { right: -5px; }
 
-/* ===== Close Button ===== */
+/* Close Button */
 .close {
   position: absolute;
   top: 15px;
@@ -382,7 +382,7 @@ body {
   transform: scale(1.1);
 }
 
-/* ===== Mobile Responsiveness ===== */
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .header {
     padding: 0.8rem 1rem;
