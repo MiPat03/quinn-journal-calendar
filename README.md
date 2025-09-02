@@ -2,47 +2,6 @@
 
 A beautiful, infinite scrollable calendar with journal entry management. Features smooth scrolling, swipeable entry cards, and mobile optimization.
 
-## Features
-
-### ✨ Core Functionality
-- **Infinite Scroll**: Seamlessly scroll through months infinitely into past and future
-- **Smooth Performance**: Optimized with memory management and scroll throttling
-- **Journal Entries**: Display journal entries on calendar days with images, ratings, and categories
-- **Swipeable Modal**: Navigate between journal entries with touch/swipe gestures
-- **Dynamic Header**: Header updates to show the most visible month
-
-### 🚀 Performance Optimizations
-- Memory management (limits months in DOM to prevent memory leaks)
-- Throttled scroll events (60fps)
-- Passive event listeners for better scroll performance
-- Lazy loading images
-- Optimized React rendering with useCallback and useMemo
-
-### ♿ Accessibility & UX
-- **Keyboard Navigation**: 
-  - `Ctrl/Cmd + Arrow Keys` to scroll
-  - `Home/End` to jump to top/bottom
-  - `PageUp/PageDown` for month navigation
-  - `Enter/Space` to open journal entries
-- **Screen Reader Support**: Proper ARIA labels and roles
-- **Focus Management**: Clear focus indicators and tab navigation
-- **Mobile Optimized**: Touch-friendly interactions and responsive design
-
-### 📱 Mobile Features
-- Smooth touch scrolling
-- Optimized touch targets
-- Swipe gestures for journal navigation
-- Responsive layouts for all screen sizes
-
-## Tech Stack
-
-- **Frontend**: React 19 with Hooks
-- **Build Tool**: Vite
-- **Styling**: Pure CSS with modern features
-- **Date Utilities**: date-fns
-- **Swipe Gestures**: react-swipeable
-- **Performance**: Memory management, throttling, lazy loading
-
 ## Getting Started
 
 ### Installation
